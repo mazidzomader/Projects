@@ -78,8 +78,10 @@ class Game :
                      break
                 if self.x == 2 :
                      self.x = 1 
+                     print(f"{self.player_01}, give your move.")
                 else :
                      self.x = 2
+                     print(f"{self.player_02}, give your move.")
             if flag == False:
                  break
         if flag:
