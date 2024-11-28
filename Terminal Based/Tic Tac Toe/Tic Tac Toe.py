@@ -21,7 +21,7 @@ def print_board(board):
                     print("  O  ")
         if index != board.shape[0]-1 :
             print("_________________")
-    print()
+    print("=================")
 def checker(board) :
     if board[0][0]+board[0][1]+board[0][2] == 3 or board[1][0]+board[1][1]+board[1][2] == 3 or board[2][0]+board[2][1]+board[2][2] == 3 or board[0][0]+board[1][1]+board[2][2] == 3 or board[0][2]+board[1][1]+board[2][0] == 3 or board[0][0]+board[1][0]+board[2][0] == 3 or board[0][1]+board[1][1]+board[2][1] == 3 or board[0][2]+board[1][2]+board[2][2] == 3 :
         return True
